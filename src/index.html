@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Contagem regressiva para o aniversário: <br> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Urca - Rio de Janeiro - RJ
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        11/07/2024 às 20hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--theme">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Tema da Festa: Star Wars</h2>
+                <p class="event__details__description">
+                    A decoração da festa será inspirada nos cenários marcantes dos filmes. As cores predominantes serão o azul e o preto, simbolizando o conflito entre o bem e o mal. Pendurados no teto, os sabres de luz brilharão, criando um clima de magia e mistério, como se estivéssemos em pleno campo de batalha.
+                </p>
+            </div>
+            <img class="event__image" src="./images/sobre.png" alt="Guloseimas">
+        </div>
+    </section>
+    <section class="event event--party event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">A Festa</h2>
+                <p class="event__details__description">
+                    Na mesa de guloseimas, as delícias estarão tematicamente relacionadas com a saga. Cupcakes decorados com personagens como Darth Vader e R2-D2, cookies em formato de sabres de luz e balas coloridas representando os diferentes planetas estarão à disposição dos convidados. O bolo de aniversário será uma obra-prima, trazendo os principais personagens em uma cena épica, e, é claro, não faltará o símbolo mais icônico de Star Wars, a logo da Rebelião.
+                </p>
+            </div>
+            <img class="event__image" src="./images/tema.png" alt="Mesas da festa">
+        </div>
+    </section>
+    <section class="event event--bye">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Despedida</h2>
+                <p class="event__details__description">
+                    A festa Star Wars - Uma Jornada Intergaláctica será uma experiência memorável para todos, onde a diversão, a amizade e a magia desse universo fantástico se tornarão realidade por algumas horas. Que a Força esteja com todos nós nessa festa emocionante!
+                </p>
+            </div>
+            <img class="event__image" src="./images/despedida.png" alt="Mestre Yoda">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
